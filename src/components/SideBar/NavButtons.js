@@ -1,9 +1,11 @@
 import React from 'react'
 
-function NavButtons({link,icon,location}) {
+function NavButtons({link,icon,location,clicked}) {
+
+
   return (
   <li>
-    <a href="#" className="active"><i class={"fa fa-"+icon}></i>{location}</a>
+    <a href="#" className={clicked}><i class={"fa fa-"+icon}></i>{location} </a>
   </li>
   )
 }

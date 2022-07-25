@@ -1,8 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
+import NavButtons from './NavButtons'
 
 
 
 function SideBar() {
+    const icons=[
+    {icon:'home',word:'Home'},
+    {icon:'user',word:'About'},
+    {icon:'list',word:'Services'},
+    {icon:'briefcase',word:'Portfolio'},
+    {icon:'comments',word:'Contacts'}
+]
+const [clickedButton,setClicked]=useState(false)
+const handleClick=(e)=>{
+    setClicked(!clickedButton)}
+
   return (
     <div className="aside">
     <div className="logo">
@@ -11,12 +23,14 @@ function SideBar() {
     <div className="nav-toggler">
         <span></span>
     </div>
-    <ul className="nav">
-        <li><a href="#" className="active"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#"><i className="fa fa-user"></i>About</a></li>
-        <li><a href="#"><i className="fa fa-list"></i>Services</a></li>
-        <li><a href="#"><i className="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#"><i className="fa fa-comments"></i>Contacts</a></li>
+    <ul className="nav">{
+        icons.map(btn=><NavButtons link='#' clicked='inActive' icon={btn.icon} location={btn.word} />)
+    }
+        {/* <NavButtons link='#' clicked="active" icon="home" location="Home"/>
+        <NavButtons link='#' clicked="inActive" icon="user" location="About"/>
+        <NavButtons link='#' clicked="inActive" icon="list" location="Searvices"/>
+        <NavButtons link='#' clicked="inActive" icon="briefcase" location="Portfolio"/>
+        <NavButtons link='#' clicked="inActive" icon="comments" location="Contacts"/> */}
         
     </ul>
 </div>
