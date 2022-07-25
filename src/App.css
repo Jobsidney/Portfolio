@@ -353,206 +353,206 @@ h3.my-profession{
 
 /* ABOUT CSS */
 .about .about-content{
-  flex: 0 0 100%;
-  max-width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .about .about-content .about-text{
-  flex: 0 0 100%;
-  max-width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .about .about-content .about-text h3{
-  font-size: 24px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  color: var(--text-black-900);
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--text-black-900);
 }
 .about .about-content .about-text h3 span{
-  color: var(--skin-color);
+    color: var(--skin-color);
 }
 .about .about-content .about-text p{
-  font-size: 16px;
-  line-height: 25px;
-  color: var(--text-black-700);
-  
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    
 }
 
 .about .about-content .personal-info{
-  flex: 0 0 60%;
-  max-width: 60%;
-  margin-top: 40px;
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
 }
 .about .about-content .personal-info .info-item{
-  flex: 0 0 50%;
-  max-width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 .about .about-content .personal-info .info-item p i{
-  padding-right: 4px;
+    padding-right: 4px;
 }
 
 .about .about-content .personal-info .info-item p{
-  font-weight: 600;
-  padding: 10px;
-  font-size: 16px;
-  height: 46px;
-  color: var(--text-black-900);
-  border: 1px solid var(--bg-black-50);
+    font-weight: 600;
+    padding: 10px;
+    font-size: 16px;
+    height: 65px;
+    color: var(--text-black-900);
+    border: 1px solid var(--bg-black-50);
 }
 
 .about .about-content .personal-info .info-item p span{
-  font-weight: 400;
-  color: var(--text-black-700);
-  margin-left: 4px;
-  display: inline-block;
+    font-weight: 400;
+    color: var(--text-black-700);
+    margin-left: 4px;
+    display: inline-block;
 }
 
 .about .about-content .personal-info .buttons{
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .about .about-content .personal-info .buttons .btn{
-  margin-right: 15px;
-  margin-top: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 .about .about-content .skills{
-  flex: 0 0 40%;
-  max-width: 40%;
-  margin-top: 40px;
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
 }
 
 .about .about-content .skills .skill-item{
-  flex: 0 0 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
 .about .about-content .skills .skill-item h5{
-  line-height: 40px;
-  font-weight: 600;
-  font-size: 16px;
-  color: var(--text-black-900);
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
 }
 
 .about .about-content .skills .skill-item .progress{
-  background-color: var(--bg-black-50);
-  height: 7px;
-  border-radius: 4px;
-  width: 100%;
-  position: relative;
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
 }
 
 .about .about-content .skills .skill-item .progress .progress-in{
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  border-radius: 4px;
-  background-color: var(--skin-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
 }
 
 .about .about-content .skills .skill-item .skill-percent{
-  position: absolute;
-  right: 0;
-  color: var(--text-black-900);
-  top: -40px;
-  font-weight: 400;
-  line-height: 40px;
+    position: absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -40px;
+    font-weight: 400;
+    line-height: 40px;
 }
 
 .about .about-content .education,.about .about-content .experience{
-  flex: 0 0 50%;
-  max-width: 50%;
-  margin-top: 30px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
 }
 
 .about .about-content h3.title{
-  font-size: 24px;
-  margin-bottom: 30px;
-  font-weight: 700;
-  color: var(--text-black-900);
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
 }
 
 .about .about-content .timeline-box{
-  flex: 0 0 100%;
-  max-width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .about .about-content .timeline{
-  background-color: var(--bg-black-100);
-  padding: 30px 15px;
-  border: 1px solid var(--bg-black-50);
-  border-radius: 10px;
-  width: 100%;
-  transition: 0.4s;
-  position: relative;
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.4s;
+    position: relative;
 }
 
 .about .about-content .timeline:hover{
-  background-color: var(--bg-black-100);
-  padding: 30px 15px;
-  border-radius: 10px;
-  width: 100%;
-  position: relative;
-  transition: 0.4s;
-  box-shadow: 10px 10px 10px rgba(48, 46, 77, 0.15);
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    transition: 0.4s;
+    box-shadow: 10px 10px 10px rgba(48, 46, 77, 0.15);
 }
 
 .about .about-content .timeline .timeline-item{
-  position: relative;
-  padding-left: 30px;
-  padding-bottom: 40px;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 40px;
 }
 
 .about .about-content .timeline .timeline-item:last-child{
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .about .about-content .timeline .timeline-item::before{
-  content: '';
-  width: 1px;
-  border-radius: 3px;
-  position: absolute;
-  height: 100%;
-  left: 7px;
-  top: 0;
-  background-color: var(--skin-color);
+    content: '';
+    width: 1px;
+    border-radius: 3px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--skin-color);
 }
 
 .about .about-content .timeline .circle-dot{
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background-color: var(--skin-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
 }
 
 .about .about-content .timeline .timeline-date{
-  font-weight: 500;
-  font-size: 14px;
-  margin-bottom: 12px;
-  color: var(--text-black-700);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
 }
 
 .about .about-content .timeline .timeline-date .fa{
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .about .about-content .timeline .timeline-title{
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 10px;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  color: var(--text-black-900);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: var(--text-black-900);
 }
 
 .about .about-content .timeline .timeline-text{
-  line-height: 25px;
-  font-size: 16px;
-  text-align: justify;
-  color: var(--text-black-700);
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
 }
