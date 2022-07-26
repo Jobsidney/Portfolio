@@ -1,4 +1,5 @@
 import React from 'react'
+import Titles from '../Card/Titles'
 import Personal from './Personal'
 
 
@@ -7,10 +8,7 @@ function About() {
     <div className='about section'>
         <div className='container'>
         <div className="row">
-            <div className="section-title padd-15">
-                <h2>About me</h2>
-                
-            </div>
+            <Titles heading={'Abouts'}/>
         </div>
         <Personal/>
         </div>

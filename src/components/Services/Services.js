@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Card/Card'
+import Titles from '../Card/Titles'
 
 function Services() {
     const service=[
@@ -10,15 +11,12 @@ function Services() {
         {title:'cross platform apps',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"bullhorn"},
         {title:'cross platform apps',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"search"},
     ]
+
     
   return (
     <section class="service section">
                     <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>Services</h2>
-                            </div>
-                        </div>
+                        <Titles heading={'Services'}/>
                         <div class="row">
                                {
                                 service.map(skill=><Card title={skill.title} description={skill.description} icon={skill.icon} />)

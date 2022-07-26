@@ -256,8 +256,8 @@ ul{
 }
 
 .aside .nav li a{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
     display: block;
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
