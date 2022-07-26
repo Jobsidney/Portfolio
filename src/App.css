@@ -619,3 +619,12 @@ h3.my-profession{
   line-height: 25px;
 
 }
+
+.socialMedia{
+  font-size: 40px;
+  background-color:#e8dfec;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+  margin: auto;
+}
