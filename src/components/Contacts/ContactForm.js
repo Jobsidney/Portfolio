@@ -11,7 +11,15 @@ function ContactForm() {
                 <option value="Fun">Fun</option>
                  <option value="Collaborator">Collaborator</option>
             </select>
-            <input type="text" placeholder='Subject' required />
+            {/* <input type="text" placeholder='Subject' required /> */}
+            <select name="" id="">
+                <option value="Employer-me">Employer Me</option>
+                <option value="Fun">Feed Back</option>
+                 <option value="Collabo-req">Collaboratoration Request</option>
+            </select>
+            <textarea id="Mailcontent" placeholder='Type message here..' name="content" rows="4" cols="10"></textarea>
+            <button className='btnSubmit' type="submit">send</button>
+
         </form>
       
     </div>

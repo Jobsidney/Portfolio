@@ -631,24 +631,51 @@ h3.my-profession{
   justify-content: center;
   margin: auto;
 }
+.socialMedia:hover{
+  background: var(--skin-color);
+}
 .contact-form{
   margin: auto;
   border-radius: 10px;
-  background-color: red;
-  height: 400px;
+  background:white;
+  height: max-content;
   width: 400px;
+  border: 1px solid rgb(139, 139, 139);
+}
+.contact-form:hover{
+  border: 3px solid var(--skin-color);
+
 }
 .contact-form form{
+  padding: 1rem 0rem;
   font-size: 15px;
   display: flex;
   flex-direction: column;
 }
-.contact-form form>input,select{
+.contact-form form>input,select,textarea,button{
   margin: 10px 20px;
   font-size: 15px;
   font-family: 'Poppins';
-  border: none;
+  border: 1px solid rgb(158, 157, 157);
   text-align: center;
   padding: 8px;
   border-radius: 5px;
+  background-color: #f3f0f5;
+}
+.contact-form form>input:hover,select:hover,textarea:hover{
+  background:var(--bg-black-50);
+  border: 1px solid var(--skin-color);
+}
+textarea{
+  text-align: start;
+}
+.btnSubmit{
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: none;
+  margin: 1rem 2rem;
+  background:var(--skin-color);
+  color: white;
+  font-weight: 900;
+  font-size: larger;
 }
