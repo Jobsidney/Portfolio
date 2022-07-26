@@ -1,5 +1,6 @@
 import React from 'react'
 import HireBtn from '../Main-Section/HireBtn'
+import Skills from './Skills'
 
 function Personal() {
 
@@ -24,7 +25,7 @@ function Personal() {
                     <div class="row">
                             {<Item icon="birthday-cake" description='September, 2000' title='BirthDay'descr2='9' sup='th'/>}
                             {<Item icon="male" description='21' title='Age' />}
-                            {<Item icon="graduation-cap" description='Degree' title='Computer Science' />}
+                            {<Item icon="graduation-cap" description='Computer Science' title='Degree' />}
                             {<Item icon="chart-line" description='Software Engineering' title='Major' />}
                             {<Item icon="envelope" description='jobsidney67@gmail.com' title='Email' />}
                             {<Item icon="phone" description='+254-745-929-089' title='Phone' />}
@@ -36,6 +37,7 @@ function Personal() {
                                 {<HireBtn words='DOWNLOAD CV'/>}
                             </div>
                         </div>
+                       <Skills/>
             </div>
          </div>
 

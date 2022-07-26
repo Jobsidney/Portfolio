@@ -8,7 +8,7 @@ function SideBar() {
     {icon:'home',word:'Home'},
     {icon:'user',word:'About'},
     {icon:'list',word:'Services'},
-    {icon:'briefcase',word:'Portfolio'},
+    {icon:'laptop-code',word:'Projects'},
     {icon:'comments',word:'Contacts'}
 ]
 const [clickedButton,setClicked]=useState(false)
