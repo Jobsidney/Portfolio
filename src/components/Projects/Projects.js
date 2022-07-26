@@ -3,10 +3,10 @@ import Titles from '../Card/Titles'
 
 function Projects() {
   return (
-    <section class="service section">
-    <div class="container">
+    <section className="service section">
+    <div className="container">
     <Titles heading={'Projects'}/>
-        <div class="row">
+        <div className="row">
               {/* API WILL BE CALLED HERE */}
         </div>
     </div>
