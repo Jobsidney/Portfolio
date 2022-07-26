@@ -1,17 +1,17 @@
 import React from 'react'
 import Titles from '../Card/Titles'
 
-function Projects() {
+function Contacts() {
   return (
-    <section class="service section">
+    <section class=" section">
     <div class="container">
-    <Titles heading={'Projects'}/>
+    <Titles heading={'Contacts'}/>
         <div class="row">
-              {/* API WILL BE CALLED HERE */}
+        
         </div>
     </div>
 </section>
   )
 }
 
-export default Projects
+export default Contacts

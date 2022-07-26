@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../About/About'
+import Contacts from '../Contacts/Contacts'
 import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
 import Services from '../Services/Services'
@@ -12,6 +13,7 @@ function MainSection() {
         <About/>
         <Services/>
         <Projects/>
+        <Contacts/>
     </div>
     
   )
