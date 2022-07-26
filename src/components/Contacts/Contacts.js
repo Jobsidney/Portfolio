@@ -1,5 +1,6 @@
 import React from 'react'
 import Titles from '../Card/Titles'
+import ContactForm from './ContactForm'
 
 function Contacts() {
 
@@ -16,13 +17,13 @@ function Contacts() {
     <section className=" section ">
     <div className="container">
     <Titles heading={'Contacts'}/>
-    <div className="row">
+    <div className="row row2">
         <SocialMediaIcon icon={'twitter'} link={'#'}/>
         <SocialMediaIcon icon={'github'} link={'#'}/>
         <SocialMediaIcon icon={'linkedin'} link={'#'}/>
         <SocialMediaIcon icon={'instagram'} link={'#'}/>
     </div>
-
+    <ContactForm/>
     </div>
 </section>
   )

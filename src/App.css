@@ -619,6 +619,9 @@ h3.my-profession{
   line-height: 25px;
 
 }
+.row2{
+  margin-bottom: 50px;
+}
 
 .socialMedia{
   font-size: 40px;
@@ -627,4 +630,25 @@ h3.my-profession{
   border-radius: 10px;
   justify-content: center;
   margin: auto;
+}
+.contact-form{
+  margin: auto;
+  border-radius: 10px;
+  background-color: red;
+  height: 400px;
+  width: 400px;
+}
+.contact-form form{
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form form>input,select{
+  margin: 10px 20px;
+  font-size: 15px;
+  font-family: 'Poppins';
+  border: none;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
 }
