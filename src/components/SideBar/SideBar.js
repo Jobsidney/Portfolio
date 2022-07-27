@@ -5,11 +5,11 @@ import NavButtons from './NavButtons'
 
 function SideBar() {
     const icons=[
-    {icon:'home',word:'Home'},
-    {icon:'user',word:'About'},
-    {icon:'list',word:'Services'},
-    {icon:'laptop-code',word:'Projects'},
-    {icon:'comments',word:'Contacts'}
+    {icon:'home',word:'Home',link:'/home'},
+    {icon:'user',word:'About',link:'/about'},
+    {icon:'list',word:'Services',link:'/services'},
+    {icon:'laptop-code',word:'Projects', link:'/projects'},
+    {icon:'comments',word:'Contacts',link:'/contact'},
 ]
 const [clickedButton,setClicked]=useState(false)
 const handleClick=(e)=>{
@@ -24,7 +24,7 @@ const handleClick=(e)=>{
         <span></span>
     </div>
     <ul className="nav">{
-        icons.map(btn=><NavButtons link='#' clicked='inActive' icon={btn.icon} location={btn.word} />)
+        icons.map(btn=><NavButtons clicked='inActive' icon={btn.icon} location={btn.word} link={btn.link} />)
     }
         {/* <NavButtons link='#' clicked="active" icon="home" location="Home"/>
         <NavButtons link='#' clicked="inActive" icon="user" location="About"/>
