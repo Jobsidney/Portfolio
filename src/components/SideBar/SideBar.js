@@ -9,7 +9,7 @@ function SideBar() {
     {icon:'user',word:'About',link:'/about'},
     {icon:'list',word:'Services',link:'/services'},
     {icon:'laptop-code',word:'Projects', link:'/projects'},
-    {icon:'comments',word:'Contacts',link:'/contact'},
+    {icon:'comments',word:'Contacts',link:'/contacts'},
 ]
 const [clickedButton,setClicked]=useState(false)
 const handleClick=(e)=>{
