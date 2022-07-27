@@ -52,6 +52,15 @@ ul{
     opacity: 1;
     margin-left: 270px;
 }
+.floatMode{
+  float: right;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  cursor: pointer;
+  font-size: 30px;
+  color: #302e4d;
+}
 
 .hidden{
     display: none !important;

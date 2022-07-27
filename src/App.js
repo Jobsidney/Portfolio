@@ -10,6 +10,7 @@ function App() {
       <div className="main-container">
         <SideBar/>
         <MainSection/>
+        <div className='floatMode'><i class={"fa fa-moon"}></i></div>
       </div>
     </BrowserRouter>
   );
