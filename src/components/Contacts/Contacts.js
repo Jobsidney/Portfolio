@@ -23,7 +23,7 @@ function Contacts() {
         <SocialMediaIcon icon={'linkedin'} link={'#'}/>
         <SocialMediaIcon icon={'instagram'} link={'#'}/>
     </div>
-    <h2 className='padd-15'>TALK TO ME:</h2>
+    <h2 className='call padd-15'>TALK TO ME:</h2>
     <ContactForm/>
     </div>
 </section>

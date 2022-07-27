@@ -604,6 +604,12 @@ h3.my-profession{
   font-size: 30px;
   color: white;
 }
+.service .service-item .service-item-inner a{
+  margin-top: 18rem;
+  text-decoration: underline;
+  color: var(--skin-color);
+  font-weight: 700;
+}
 
 .service .service-item .service-item-inner h4{
   font-size: 18px;
@@ -679,3 +685,9 @@ textarea{
   font-weight: 900;
   font-size: larger;
 }
+.call{
+  color: #302e4d;
+  text-decoration: underline;
+  font-family: 'Poppins';
+}
+

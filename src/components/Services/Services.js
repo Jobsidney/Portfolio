@@ -9,15 +9,15 @@ function Services() {
         {title:'Android App Development',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"mobile-alt"},
         {title:'iOS App Development',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"mobile-alt"},
         {title:'cross platform apps',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"bullhorn"},
-        {title:'cross platform apps',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"search"},
+        {title:'Huawei DataCom',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',icon:"search"},
     ]
 
     
   return (
     <section class="service section">
-                    <div class="container">
+                    <div className="container">
                         <Titles heading={'Services'}/>
-                        <div class="row">
+                        <div className="row">
                                {
                                 service.map(skill=><Card title={skill.title} description={skill.description} icon={skill.icon} />)
                                }                       

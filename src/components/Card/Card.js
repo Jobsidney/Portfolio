@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({link,title,description,icon}) {
+function Card({link,linkName,title,description,icon}) {
   return (
     <div className="service-item padd-15">
         <div className="service-item-inner">
@@ -9,6 +9,7 @@ function Card({link,title,description,icon}) {
             </div>
             <h4>{title}</h4>
             <p>{description}</p>
+            <a href="">{linkName}</a>
         </div>
     </div>
   )
