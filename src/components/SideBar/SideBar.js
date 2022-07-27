@@ -5,15 +5,12 @@ import NavButtons from './NavButtons'
 
 function SideBar() {
     const icons=[
-    {icon:'home',word:'Home',link:'/home'},
-    {icon:'user',word:'About',link:'/about'},
-    {icon:'list',word:'Services',link:'/services'},
-    {icon:'laptop-code',word:'Projects', link:'/projects'},
-    {icon:'comments',word:'Contacts',link:'/contacts'},
+    {icon:'home',word:'Home',link:'/home',id:1},
+    {icon:'user',word:'About',link:'/about',id:2},
+    {icon:'list',word:'Services',link:'/services',id:3},
+    {icon:'laptop-code',word:'Projects', link:'/projects',id:4},
+    {icon:'comments',word:'Contacts',link:'/contacts',id:5},
 ]
-const [clickedButton,setClicked]=useState(false)
-const handleClick=(e)=>{
-    setClicked(!clickedButton)}
 
   return (
     <div className="aside">
@@ -24,13 +21,8 @@ const handleClick=(e)=>{
         <span></span>
     </div>
     <ul className="nav">{
-        icons.map(btn=><NavButtons clicked='inActive' icon={btn.icon} location={btn.word} link={btn.link} />)
+        icons.map(btn=><NavButtons   icon={btn.icon} location={btn.word} link={btn.link} id={btn.id} />)
     }
-        {/* <NavButtons link='#' clicked="active" icon="home" location="Home"/>
-        <NavButtons link='#' clicked="inActive" icon="user" location="About"/>
-        <NavButtons link='#' clicked="inActive" icon="list" location="Searvices"/>
-        <NavButtons link='#' clicked="inActive" icon="briefcase" location="Portfolio"/>
-        <NavButtons link='#' clicked="inActive" icon="comments" location="Contacts"/> */}
         
     </ul>
 </div>

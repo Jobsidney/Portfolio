@@ -637,8 +637,14 @@ h3.my-profession{
   justify-content: center;
   margin: auto;
 }
+
+.fa-twitter,.fa-linkedin,.fa-instagram ,.fa-github {
+  color:var(--text-black-900);
+}
 .socialMedia:hover{
-  background: var(--skin-color);
+  background-color: var(--skin-color);
+  opacity: 0.8;
+  transition: 1s;
 }
 .contact-form{
   margin: auto;
