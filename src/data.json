@@ -12,5 +12,15 @@
         "image":"http://weather",
         "description":"lorem ipsum dolor sit amet"
         }
+    ],
+    "communication":[
+        {
+            "id":1,
+            "name":"Josiah Ambenje",
+            "email":"josiah.ambenje@gmail.com",
+            "WHO":"Employer",
+            "WHY":"Employ Me",
+            "message":"I want you to take part in developing my uber app"
+        }
     ]
 }

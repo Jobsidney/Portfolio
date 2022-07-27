@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Card({link,linkName,title,description,icon}) {
+function Card({link,key,linkName,title,description,icon}) {
   return (
     <div className="service-item padd-15">
-        <div className="service-item-inner">
+        <div className="service-item-inner" key={key}>
             <div className="icon">
               <i className={`fa fa-${icon}`}></i>
             </div>

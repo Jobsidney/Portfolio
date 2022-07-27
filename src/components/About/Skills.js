@@ -7,7 +7,7 @@ function Skills() {
                 <h5>{skill}</h5>
                 <div className="progress">
                     <div className="progress-in" style={{width: rate+'%'}}></div>
-                        <div className="skill-percent">{rate}</div>
+                        <div className="skill-percent">{rate+'%'}</div>
                 </div>
             </div>
         )
