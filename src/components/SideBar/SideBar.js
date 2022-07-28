@@ -5,7 +5,7 @@ import NavButtons from './NavButtons'
 
 function SideBar() {
     const icons=[
-    {icon:'home',word:'Home',link:'/home',id:1},
+    {icon:'home',word:'Home',link:'/',id:1},
     {icon:'user',word:'About',link:'/about',id:2},
     {icon:'list',word:'Services',link:'/services',id:3},
     {icon:'laptop-code',word:'Projects', link:'/projects',id:4},
