@@ -6,8 +6,8 @@ function Personal() {
 
     function Item({icon,title,description,descr2,sup}){
         return(
-            <div class="info-item padd-15">
-                <p><i class={"fa fa-"+icon}></i> {title} : <span>{descr2}<sup>{sup}</sup>{description}</span></p>
+            <div className="info-item padd-15">
+                <p><i className={"fa fa-"+icon}></i> {title} : <span>{descr2}<sup>{sup}</sup>{description}</span></p>
             </div>
         )
     }
@@ -20,9 +20,9 @@ function Personal() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="personal-info padd-15">
-                    <div class="row">
+            <div className="row">
+                <div className="personal-info padd-15">
+                    <div className="row">
                             {<Item icon="birthday-cake" description='September, 2000' title='BirthDay'descr2='9' sup='th'/>}
                             {<Item icon="male" description='21' title='Age' />}
                             {<Item icon="graduation-cap" description='Computer Science' title='Degree' />}
@@ -33,7 +33,7 @@ function Personal() {
                             {<Item icon="padd-15" description='Nairobi, Kenya' title='Address' />}
                     
                             </div>
-                            <div class="row">
+                            <div className="row">
                                 {<HireBtn words='DOWNLOAD CV'/>}
                             </div>
                         </div>

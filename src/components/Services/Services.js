@@ -14,7 +14,7 @@ function Services() {
 
     
   return (
-    <section class="service section">
+    <section className="service section">
                     <div className="container">
                         <Titles heading={'Services'}/>
                         <div className="row">
