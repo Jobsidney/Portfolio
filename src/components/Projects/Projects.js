@@ -17,7 +17,7 @@ useEffect(()=>{
     <div className="container">
     <Titles heading={'Projects'}/>
         <div className="row">
-              {dataProjo.map(data=><Card key={data.id} title={data.title} description={data.description}linkName={'LEARN MORE'}link={data.link}/>)}
+              {dataProjo.map(data=><Card key={data.id} title={data.title} img={data.image} False={false} description={data.description} linkName={'LEARN MORE'}link={data.link}/>)}
         </div>
     </div>
 </section>

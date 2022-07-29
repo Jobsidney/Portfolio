@@ -16,7 +16,7 @@ function Home() {
                 
             </div>
             <div className="home-img">
-                <img src={"https://static.toiimg.com/photo/83890825/83890825.jpg?v=3"} />
+                <img src={"https://images.pexels.com/photos/1405963/pexels-photo-1405963.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} />
             </div>
         </div>
     </div>

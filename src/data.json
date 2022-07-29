@@ -3,14 +3,65 @@
     {
       "id": 1,
       "title": "Weather App",
-      "image": "http://weather",
-      "description": "lorem ipsum dolor sit amet"
+      "image": "https://ausdroid.net/wp-content/uploads/2016/01/Pocket-Weather-1.png",
+      "link":"",
+      "description": "Android Mobile app that provides weather information at any time and can be used to determine what type of cloths to use at specific weather condition"
     },
     {
       "id": 2,
-      "title": "Weather App",
-      "image": "http://weather",
-      "description": "lorem ipsum dolor sit amet"
+      "title": "Shoe Site",
+      "image": "https://www.theappflow.com/wp-content/uploads/2021/01/best-shoe-selling-apps-compressed-e1624469306537.jpg",
+      "link":"https://shopping-app-ten-rosy.vercel.app/",
+      "description": "E-commerce website that advertises fashion shoes for sale and customers can purchase or add to cart forfuture tradingor referential purposes"
+    },
+    {
+      "id": 3,
+      "title": "Modern Housing",
+      "image": "https://img.freepik.com/premium-photo/man-hold-low-polygon-real-estate-concept-businessman-holding-house-icon-house-hand-property-insurance-security-concept-protecting-gesture-man-symbol-house_150455-14086.jpg",
+      "link":"https://jobsidney.github.io/Quick-movers-website/",
+      "description": "website that helps people locate places they would like to live and have modern houses"
+    },
+    {
+      "id": 4,
+      "title": "Healthy",
+      "image": "https://img.freepik.com/free-vector/people-walking-sitting-hospital-building-city-clinic-glass-exterior-flat-vector-illustration-medical-help-emergency-architecture-healthcare-concept_74855-10130.jpg?w=2000",
+      "link":"https://jobsidney.github.io/Heathy/",
+      "description": "website that specializes in medical services. The services are brought closer to the user for easy access at any time"
+    },
+    {
+      "id": 5,
+      "title": "JS Quizler",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRujt-cranSZmNY80qfveaiIVa9-yoI62xuScsN6x7Nou2iwI6QdUtkfHxnvHoavP7lag&usqp=CAU",
+      "link":"https://jobsidney.github.io/Quiz-Board/",
+      "description": "Website where students test their javascript knowledge"
+    },
+    {
+      "id": 6,
+      "title": "Bank Web",
+      "image": "https://media.istockphoto.com/photos/man-using-online-banking-with-credit-card-on-touch-screen-device-picture-id962095876?k=20&m=962095876&s=612x612&w=0&h=yzt6qDr5tnD-vMBMiM_IMYXVPCRnfULnrFy_54w0ooM=",
+      "link":"https://e-banking-design.vercel.app/",
+      "description": "Website that advertises main features of a specific Bank like mobile banking & online cash transfers"
+    },
+    {
+      "id": 7,
+      "title": "Movies Theater",
+      "image": "https://cdn.dribbble.com/users/1726280/screenshots/10556530/media/80b97e4b0a802968eec4c166b35ebaa1.jpg?compress=1&resize=400x300",
+      "link":"https://jobsidney.github.io/Movie-Theatres/",
+      "description": "Movie website,displays variety of movies to the user "
+    },
+    {
+      "id": 8,
+      "title": "Chat App",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHrfIkSPlT5dK7Sizypp5wKV2Ts-f8AG3yQ&usqp=CAU",
+      "link":"https://github.com/Jobsidney/chattin",
+      "description": "Flutter cross-platform chat app enables two way communication between the users"
+    },
+    {
+      "id": 9,
+      "title": "School Sites",
+      "image": "https://www.intechnic.com/hubfs/Blog/Featured%20Images/Best%20School%20Website%20Designs%20for%20Colleges%20and%20Universities.jpg",
+      "link":"https://jobsidney.github.io/Moringa-school-landing-page/",
+      "description": "Well designed website with variety of important features of a tech school from its staff, to naturing youths in tech"
     }
   ],
   "communication": [

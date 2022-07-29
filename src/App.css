@@ -705,4 +705,10 @@ textarea{
   text-decoration: underline;
   font-family: 'Poppins';
 }
+.gitImg , .gitImg>img{
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+
+}
 

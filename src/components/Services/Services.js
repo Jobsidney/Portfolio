@@ -19,7 +19,7 @@ function Services() {
                         <Titles heading={'Services'}/>
                         <div className="row">
                                {
-                                service.map(skill=><Card title={skill.title} description={skill.description} icon={skill.icon} />)
+                                service.map(skill=><Card title={skill.title} description={skill.description} icon={skill.icon} False={true} />)
                                }                       
                         </div>
                     </div>
