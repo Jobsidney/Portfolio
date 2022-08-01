@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Development & contributions
+
+Do you want to make it better?
+the following are the process to show your contribution to this page:
+
+- Fork the repo
+- Create a new branch (`git checkout -b contribute`).
+- Make the changes you want to the files and folders.
+- Add the changes (`git add .`).
+- to reflect the changes.
+- commit changes (`git commit -m 'Contributing new featires'`).
+- push changes to the branch (`git push origin contribute`).
+- Do a pull Request.
+  
+
+
+## [Features]()
+- React
+- Json DataBase
+- Uses HTML5
+- Well arranged and designed User Interface(UI).
+- Css selectors uses classes that are reusable hence small but reliable codes.
+- Easy navigation to multiple pages via links.
+- ease 
+
 ## Available Scripts
 
 In the project directory, you can run:
