@@ -5,10 +5,10 @@ import Titles from '../Card/Titles'
 function Projects() {
 const [dataProjo,setDataProjo]=useState([])
 useEffect(()=>{
-    fetch('http://localhost:8000/projects')
+    fetch('https://jobsidney.github.io/jsonServer/data.json')
     .then(response=>response.json())
     .then(data=>{
-        console.log(data);
+        console.log(data.projects);
         setDataProjo(data)//
     })
 },[])
