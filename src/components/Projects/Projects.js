@@ -9,7 +9,7 @@ useEffect(()=>{
     .then(response=>response.json())
     .then(data=>{
         console.log(data);
-        setDataProjo(data)
+        setDataProjo(data)//
     })
 },[])
   return (
