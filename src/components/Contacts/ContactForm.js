@@ -21,7 +21,7 @@ function ContactForm() {
 
   const handleSubmit=(event)=>{
     event.preventDefault();
-    fetch('http://localhost:8000/communication',{
+    fetch('https://jobsidney.github.io/jsonServer/message.json',{
       method: "POST",
       headers:{"content-type": "application/json",},
       body:JSON.stringify(formData)

@@ -18,10 +18,10 @@ function Contacts() {
     <div className="container">
     <Titles heading={'Contacts'}/>
     <div className="row row2">
-        <SocialMediaIcon icon={'twitter'} link={'#'}/>
-        <SocialMediaIcon icon={'github'} link={'#'}/>
-        <SocialMediaIcon icon={'linkedin'} link={'#'}/>
-        <SocialMediaIcon icon={'instagram'} link={'#'}/>
+        <SocialMediaIcon icon={'twitter'} link={'https://github.com/Jobsidney'}/>
+        <SocialMediaIcon icon={'github'} link={'https://github.com/Jobsidney'}/>
+        <SocialMediaIcon icon={'linkedin'} link={'https://www.linkedin.com/in/job-sidney-65a435203/'}/>
+        <SocialMediaIcon icon={'instagram'} link={'https://github.com/Jobsidney'}/>
     </div>
     <h2 className='call padd-15'>TALK TO ME:</h2>
     <ContactForm/>
