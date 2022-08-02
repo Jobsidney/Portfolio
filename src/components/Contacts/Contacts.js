@@ -18,7 +18,7 @@ function Contacts() {
     <div className="container">
     <Titles heading={'Contacts'}/>
     <div className="row row2">
-        <SocialMediaIcon icon={'twitter'} link={'https://github.com/Jobsidney'}/>
+        <SocialMediaIcon icon={'twitter'} link={'https://twitter.com/jovy_grey'}/>
         <SocialMediaIcon icon={'github'} link={'https://github.com/Jobsidney'}/>
         <SocialMediaIcon icon={'linkedin'} link={'https://www.linkedin.com/in/job-sidney-65a435203/'}/>
         <SocialMediaIcon icon={'instagram'} link={'https://github.com/Jobsidney'}/>
