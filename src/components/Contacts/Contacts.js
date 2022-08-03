@@ -3,7 +3,7 @@ import Titles from '../Card/Titles'
 import ContactForm from './ContactForm'
 
 function Contacts() {
-
+// find how to refactor 
     function SocialMediaIcon({icon,link}){
         return(
             <div className="socialMedia padd-15">
