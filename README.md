@@ -26,7 +26,7 @@ the following are the process to show your contribution to this page:
 - Css selectors uses classes that are reusable hence small but reliable codes.
 - Easy navigation to multiple pages via links.
 - ease
-- API 
+- API-calling
 
 ## Available Scripts
 
